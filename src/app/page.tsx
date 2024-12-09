@@ -1,5 +1,3 @@
-import IndexHome from "@/sections/home/IndexHome";
-
 import data from "@/data/data.json";
 import { Assets } from "@/assets";
 import { endpoints } from "@/utils/axios";
@@ -627,15 +625,16 @@ export default async function Home() {
     },
   };
   return (
-    <IndexHome
-      data={{
-        ...dataPortfolio?.HOME_PAGE,
-        ...dataPortfolio?.ABOUT_ME,
-        ...dataPortfolio?.PROJECT_LIST,
-      }}
-      dataProjects={dataProjects}
-      // data={data}
-      dataInit={dataPortfolio}
-    />
+    // <IndexHome
+    //   data={{
+    //     ...dataPortfolio?.HOME_PAGE,
+    //     ...dataPortfolio?.ABOUT_ME,
+    //     ...dataPortfolio?.PROJECT_LIST,
+    //   }}
+    //   dataProjects={dataProjects}
+    //   // data={data}
+    //   dataInit={dataPortfolio}
+    // />
+    <></>
   );
 }

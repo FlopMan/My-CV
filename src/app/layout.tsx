@@ -11,7 +11,6 @@ import "@/styles/common.scss";
 import { getCookieTheme } from "@/lib/theme";
 
 // COMPONENT
-import HandleUpdateStore from "@/features/HandleUpdateStore";
 import { auth } from "@/auth";
 import { Toaster } from "@/components/ui/sonner";
 import DeviceProvider from "@/components/provider/DeviceProvider";
@@ -56,7 +55,6 @@ export default async function RootLayout({
       >
         <DeviceProvider>
           {children}
-          <HandleUpdateStore theme={theme} session={session} />
           <Toaster
             theme="light"
             richColors
