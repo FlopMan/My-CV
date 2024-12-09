@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+
+/* Rest of the CSS file content */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+  --radius: 8px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  padding: 0;
+  margin: 0;
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+}
+
+* {
+  font-family: "DM Sans", sans-serif;
+}
+
+html {
+  height: -webkit-fill-available;
+  scrollbar-gutter: stable;
+  scroll-behavior: smooth;
+  font-size: 14.4px;
+}
+
+.h-\[100vh\] {
+  min-height: -webkit-fill-available;
+}
+
+.min-h-\[100vh\] {
+  min-height: -webkit-fill-available;
+}
+
+.hide-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.hide-scroll {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.min-h-available {
+  min-height: -webkit-fill-available;
+}
+
+.title-border {
+  @apply green:border-b green:border-[#CEDFFF1A] green:pb-3 light:border-b light:border-[#2726264D] light:pb-3;
+}

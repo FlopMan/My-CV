@@ -1,0 +1,75 @@
+:root {
+  --slide-spacing-sm: 1.6rem;
+  --slide-spacing-lg: 2rem;
+  --slide-size: 100%;
+  --slide-size-sm: 50%;
+  --slide-size-lg: calc(100% / 3);
+}
+
+html.dark .text-style-1 {
+  background: linear-gradient(180deg, #ffffff 26.16%, #587cdb 106.98%);
+  background-clip: text;
+  color: transparent;
+}
+
+html.green .text-style-1 {
+  color: #dbdfe6;
+}
+html.light .text-style-1 {
+  color: #272626;
+}
+
+html.light .quill {
+  border-top: 1px solid #ccc;
+}
+
+.ql-editor {
+  min-height: 192px;
+}
+
+html.dark .ql-editor {
+  background: #000005 !important;
+  color: white !important;
+}
+
+html.dark .ql-editor[data-placeholder]::before {
+  color: white !important;
+}
+
+html.green .ql-editor {
+  background: #171919 !important;
+  color: #737373 !important;
+}
+html.green .ql-editor[data-placeholder]::before {
+  color: #737373 !important;
+}
+
+html.light .ql-editor {
+  background: white !important;
+  color: #272626 !important;
+}
+html.light .ql-editor[data-placeholder]::before {
+  color: #272626 !important;
+}
+
+.ql-container.ql-snow {
+  @apply overflow-hidden !border-t;
+  border: none !important;
+}
+
+.quill {
+  display: flex;
+  flex-direction: column-reverse;
+  @apply overflow-hidden !border-t;
+  border: none !important;
+}
+#toolbar::after {
+  content: unset !important;
+}
+.ql-snow .ql-formats:after div {
+  content: unset !important;
+}
+.ql-toolbar.ql-snow {
+  border: none !important;
+  border-top: 1px solid #e5e7eb !important;
+}

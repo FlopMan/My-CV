@@ -1,0 +1,11 @@
+.icon {
+    width: var(--icon-size);
+    height: var(--icon-size);
+    background-color: currentColor;
+    mask-size: cover;
+    -webkit-mask-size: cover;
+    mask-repeat: no-repeat;
+    -webkit-mask-repeat: no-repeat;
+    mask-position: center;
+    -webkit-mask-position: center;
+}

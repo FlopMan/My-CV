@@ -1,0 +1,11 @@
+.swiperPaginationHorizontal {
+  .swiper-pagination-fraction,
+  .swiper-pagination-custom,
+  .swiper-horizontal > .swiper-pagination-bullets,
+  .swiper-pagination-bullets.swiper-pagination-horizontal {
+    width: auto !important;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+    background-color: red !important;
+  }
+}

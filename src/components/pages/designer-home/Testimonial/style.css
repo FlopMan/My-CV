@@ -1,0 +1,21 @@
+.testimony .swiper {
+    overflow: visible;
+    width: 100%;
+}
+
+.testimony .swiper .swiper-pagination {
+    bottom: -3.22rem;
+}
+
+.testimony .swiper .swiper-pagination-bullet {
+    background-color: #131313;
+    width: 0.69444rem;
+    height: 0.69444rem;
+    margin: 0 0.555rem;
+}
+
+@media screen and (max-width: 767px) {
+    .testimony .swiper .swiper-pagination-bullet {
+        margin: 0 0.28rem;
+    }
+}

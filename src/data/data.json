@@ -1,0 +1,227 @@
+{
+    "aboutMe": {
+        "hello": "Xin chào!",
+        "introduce": "Mình là",
+        "name": "Phạm Văn Chương",
+        "message": {
+            "title": "With a passion for technology, I have 3 years experience in developing web and mobile applications, using ​​such as JavaScript, Python, and Java.",
+            "description": "I have participated in many large-scale projects, from architectural design to deployment and maintenance. With good leadership and teamwork skills, I have guided and trained new team members. I am always looking for opportunities to improve the development process and increase work efficiency. In addition, I also love exploring new technologies and applying modern development methods such as Agile and DevOps. "
+        },
+        "avatar": "/assets/images/profile/avatar.png",
+        "job": "A FREELANCE",
+        "position": "FRONT-END DEVELOPER",
+        "availabilityStatus": "I'M AVAILABLE FOR WORK"
+    },
+    "overview": {
+        "description": "I strive for excellence and pay attention to the smallest details. Each project should reflect its individuality, and border on aesthetics and functionality"
+    },
+    "contact": {
+        "message": "I'm currently open for new opportunities. Let me make your project idea a reality! Don't hesitate, contact me today via",
+        "email": "yourmail@gmail.com",
+        "copyright": "© 2024",
+        "facebookLink": "https://www.facebook.com/",
+        "linkedInLink": "https://www.linkedin.com/",
+        "githubLink": "https://github.com/"
+    },
+    "client": {
+        "number": 15,
+        "label": "Happy Clients"
+    },
+    "project": {
+        "number": 10,
+        "label": "Projects this year"
+    },
+    "skills": [
+        {
+            "name": "Website Development",
+            "technologies": [
+                "Libraries",
+                "Frameworks",
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "Git",
+                "Django"
+            ],
+            "imageUrl": "/assets/images/skills/web-development.png"
+        },
+        {
+            "name": "App Development",
+            "technologies": [
+                "Libraries",
+                "Frameworks",
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "Git",
+                "Django"
+            ],
+            "imageUrl": "/assets/images/skills/app-development.png"
+        },
+        {
+            "name": "Technology Consulting",
+            "technologies": [
+                "Libraries",
+                "Frameworks",
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "Git",
+                "Django"
+            ],
+            "imageUrl": "/assets/images/skills/technology-consulting.png"
+        }
+    ],
+    "educations": [
+        {
+            "time": "08/2024 - Present",
+            "name": "Information Technology Specialist Courses",
+            "major": "Udemy Certification "
+        },
+        {
+            "time": "09/2018 - 06/2022",
+            "name": "Hanoi University of Science and Technology",
+            "major": "Bachelor Information Technology"
+        }
+    ],
+    "experiences": [
+        {
+            "title": "Web Developer",
+            "company": "Freelancer",
+            "period": "08/2024 - Present",
+            "description": [
+                "Led the effort to support multi tenant organizations in teams and channels app within Teams app. This involved updating UI components, developing a new API which included understanding the requirements, creating developer specification, collaborating with partners and implementing the API independently"
+            ]
+        },
+        {
+            "title": "Software Development Engineer",
+            "company": "Microsoft",
+            "period": "06/2024 - 02/2019",
+            "description": [
+                "Led the integration of push architecture based sync in the Teams calendar removing the requirement of polling. This effort contributed in the reducation of 40% network calls to the backend services and made calendar sync near real time. This project involved understanding the requirements of all the Teams clients (Web, iOS, android etc.), coming up with a notification contract, creating developer spec for web client and implementing them."
+            ]
+        },
+        {
+            "title": "Junior Developer",
+            "company": "Hashness",
+            "period": "01/2019 - 05/2017",
+            "description": [
+                "I led the migration of Teams Calendaring APIs from legacy exchange APIs to the latest ones, improving availability, maintenance, debugging, and latencies. I implemented a client-side mechanism for phased migration in Microsoft Teams.",
+                "The Teams Calendaring APIs were successfully moved to downstream service communication with the latest auth stack. This resulted in faster, more resilient, and secure communication. I shared my learnings with partner teams, assisting them in migrating their services.",
+                "Beyond feature development, I provided consultation to team members on their features, mentored interns and new team members, contributed to hiring drives by taking technical interviews, provided live-site support as a part of lead on-call rotation etc."
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "id": "1",
+            "name": "Project Number 01",
+            "technologies": ["ReactJS", "VueJS"],
+            "imageUrl": "/assets/images/projects/project-1.png",
+            "startTime": "05/2024",
+            "service": "Web development",
+            "client": "Google",
+            "projectImages": [
+                "/assets/images/projects/project-3-1.png",
+                "/assets/images/projects/project-3-2.png"
+            ],
+            "description": "It's about creating spaces that inspire, function, and endure, from the initial consultation to the final unveiling project. Our vision is to redefine the urban landscape through innovative design solutions that harmonize with the environment and enhance the quality of life. We strive to create spaces that are not only aesthetically pleasing but also sustainable and functional. We leverage the latest in design technology and architectural trends to deliver innovative solutions that meet contemporary needs while anticipating future challenges.",
+            "title": "Talk about your project overviews."
+        },
+        {
+            "id": "2",
+            "name": "Project Number 02",
+            "technologies": ["ReactJS", "VueJS"],
+            "imageUrl": "/assets/images/projects/project-2.png",
+            "startTime": "05/2024",
+            "service": "Web development",
+            "client": "Google",
+            "projectImages": [
+                "/assets/images/projects/project-3-1.png",
+                "/assets/images/projects/project-3-2.png"
+            ],
+            "description": "It's about creating spaces that inspire, function, and endure, from the initial consultation to the final unveiling project. Our vision is to redefine the urban landscape through innovative design solutions that harmonize with the environment and enhance the quality of life. We strive to create spaces that are not only aesthetically pleasing but also sustainable and functional. We leverage the latest in design technology and architectural trends to deliver innovative solutions that meet contemporary needs while anticipating future challenges.",
+            "title": "Talk about your project overviews."
+        },
+        {
+            "id": "3",
+            "name": "Project Number 03",
+            "technologies": ["ReactJS", "VueJS"],
+            "imageUrl": "/assets/images/projects/project-3.png",
+            "startTime": "05/2024",
+            "service": "Web development",
+            "client": "Google",
+            "projectImages": [
+                "/assets/images/projects/project-3-1.png",
+                "/assets/images/projects/project-3-2.png"
+            ],
+            "description": "It's about creating spaces that inspire, function, and endure, from the initial consultation to the final unveiling project. Our vision is to redefine the urban landscape through innovative design solutions that harmonize with the environment and enhance the quality of life. We strive to create spaces that are not only aesthetically pleasing but also sustainable and functional. We leverage the latest in design technology and architectural trends to deliver innovative solutions that meet contemporary needs while anticipating future challenges.",
+            "title": "Talk about your project overviews."
+        },
+        {
+            "id": "4",
+            "name": "Project Number 04",
+            "technologies": ["ReactJS", "VueJS"],
+            "imageUrl": "/assets/images/projects/project-4.png",
+            "startTime": "05/2024",
+            "service": "Web development",
+            "client": "Google",
+            "projectImages": [
+                "/assets/images/projects/project-3-1.png",
+                "/assets/images/projects/project-3-2.png"
+            ],
+            "description": "It's about creating spaces that inspire, function, and endure, from the initial consultation to the final unveiling project. Our vision is to redefine the urban landscape through innovative design solutions that harmonize with the environment and enhance the quality of life. We strive to create spaces that are not only aesthetically pleasing but also sustainable and functional. We leverage the latest in design technology and architectural trends to deliver innovative solutions that meet contemporary needs while anticipating future challenges.",
+            "title": "Talk about your project overviews."
+        },
+        {
+            "id": "5",
+            "name": "Project Number 05",
+            "technologies": ["ReactJS", "VueJS"],
+            "imageUrl": "/assets/images/projects/project-5.png",
+            "startTime": "05/2024",
+            "service": "Web development",
+            "client": "Google",
+            "projectImages": [
+                "/assets/images/projects/project-3-1.png",
+                "/assets/images/projects/project-3-2.png"
+            ],
+            "description": "It's about creating spaces that inspire, function, and endure, from the initial consultation to the final unveiling project. Our vision is to redefine the urban landscape through innovative design solutions that harmonize with the environment and enhance the quality of life. We strive to create spaces that are not only aesthetically pleasing but also sustainable and functional. We leverage the latest in design technology and architectural trends to deliver innovative solutions that meet contemporary needs while anticipating future challenges.",
+            "title": "Talk about your project overviews."
+        },
+        {
+            "id": "6",
+            "name": "Project Number 06",
+            "technologies": ["ReactJS", "VueJS"],
+            "imageUrl": "/assets/images/projects/project-6.png",
+            "startTime": "05/2024",
+            "service": "Web development",
+            "client": "Google",
+            "projectImages": [
+                "/assets/images/projects/project-3-1.png",
+                "/assets/images/projects/project-3-2.png"
+            ],
+            "description": "It's about creating spaces that inspire, function, and endure, from the initial consultation to the final unveiling project. Our vision is to redefine the urban landscape through innovative design solutions that harmonize with the environment and enhance the quality of life. We strive to create spaces that are not only aesthetically pleasing but also sustainable and functional. We leverage the latest in design technology and architectural trends to deliver innovative solutions that meet contemporary needs while anticipating future challenges.",
+            "title": "Talk about your project overviews."
+        }
+    ],
+    "commentList": [
+        {
+            "author": "Maude Hall",
+            "content": "That's a fantastic projects. You and your team did an excellent job of incorporating user testing feedback.",
+            "time": "14 min",
+            "avatar": "/assets/images/user/user-1.png"
+        },
+        {
+            "author": "User 1",
+            "content": "That's a fantastic projects. You and your team did an excellent job of incorporating user testing feedback.",
+            "time": "2 months ago",
+            "avatar": "/assets/images/user/user-1.png"
+        },
+        {
+            "author": "User 2",
+            "content": "That's a fantastic projects. You and your team did an excellent job of incorporating user testing feedback.",
+            "time": "2 months ago",
+            "avatar": "/assets/images/user/user-2.png"
+        }
+    ]
+}

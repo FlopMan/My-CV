@@ -1,0 +1,22 @@
+.swiperPaginationHorizontal {
+    .swiper-pagination-fraction,
+    .swiper-pagination-custom,
+    .swiper-horizontal > .swiper-pagination-bullets,
+    .swiper-pagination-bullets.swiper-pagination-horizontal {
+        width: auto;
+        left: 50%;
+        transform: translateX(-50%);
+        padding: 0 0.55556rem;
+        border-radius: 3.47222rem;
+        background: rgba(17, 17, 17, 0.2);
+        .swiper-pagination-bullet {
+            width: 0.55556rem;
+            height: 0.55556rem;
+            background-color: #fff;
+            opacity: 0.5;
+        }
+        .swiper-pagination-bullet-active {
+            opacity: 1;
+        }
+    }
+}
