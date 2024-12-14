@@ -8,22 +8,22 @@ import Header from "./common/Header";
 const themes = ["designerStyle1", "designerStyle2", "designerStyle3"];
 
 export default function DesignerLayout({
-  children,
+    children,
 }: {
-  children: React.ReactNode;
+    children: React.ReactNode;
 }) {
-  const searchParams = useSearchParams();
-  const theme = searchParams.get("theme")?.toString();
-  const currentTheme = theme && themes.includes(theme) ? theme : themes[0];
+    const searchParams = useSearchParams();
+    const theme = searchParams.get("theme")?.toString();
+    const currentTheme = theme && themes.includes(theme) ? theme : themes[0];
 
-  return (
-    <div className={`designer-layout ${currentTheme} bg-theme-main-background`}>
-      <Header />
-      <ScrollToTop />
-      <main className="designer-content md:pt-[8.5rem] pt-[5rem]">
-        {children}
-      </main>
-      <Footer />
-    </div>
-  );
+    return (
+        <div
+            className={`designer-layout ${currentTheme} bg-theme-main-background`}
+        >
+            <Header />
+            <ScrollToTop />
+            <main className="designer-content ">{children}</main>
+            <Footer />
+        </div>
+    );
 }
