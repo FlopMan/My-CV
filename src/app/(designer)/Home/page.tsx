@@ -5,16 +5,16 @@ import Skills from "@/components/pages/designer-home/Skills";
 import Testimonial from "@/components/pages/designer-home/Testimonial";
 import React from "react";
 
-const Home = () => {
-  return (
-    <div className='bg-theme-main-background'>
-      <Banner />
-      <AboutMe />
-      <FeaturedWork />
-      <Skills />
-      <Testimonial />
-    </div>
-  );
+const HomePage = () => {
+    return (
+        <div className="bg-theme-main-background">
+            <Banner />
+            <AboutMe />
+            <FeaturedWork />
+            <Skills />
+            <Testimonial />
+        </div>
+    );
 };
 
-export default Home;
+export default HomePage;
