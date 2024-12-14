@@ -9,7 +9,7 @@ type Props = {
 
 const SkillItem = ({ index, skill: { icon, title, description } }: Props) => {
     return (
-        <div className="flex flex-col md:sticky md:top-[7rem] text-theme-primary-content p-[1.67rem] md:p-[2.2222rem] md:pb-[3.3333rem] md:gap-[2.2222rem] rounded-[0.83333rem] bg-[#ffffff] border border-[#BFBEBE]">
+        <div className="flex flex-col md:sticky md:top-[7.5rem] text-theme-primary-content p-[1.67rem] md:p-[2.2222rem] md:pb-[3.3333rem] md:gap-[2.2222rem] rounded-[0.83333rem] bg-[#ffffff] border border-[#BFBEBE]">
             <div className="flex justify-between">
                 <div className="relative w-[2.8609rem] md:w-[5.55556rem] h-[2.77778rem] md:h-[5.55556rem] max-md:mb-[1.67rem]">
                     <Image

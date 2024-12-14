@@ -1,5 +1,4 @@
 import Image from "next/image";
-
 export default function Software() {
     return (
         <div className="">
@@ -7,18 +6,48 @@ export default function Software() {
                 Software
             </h3>
             <div className="flex md:gap-[1.39rem] max-md:space-x-[0.83rem] flex-wrap">
-                {Array(6)
-                    .fill(0)
-                    .map((e, index) => (
-                        <Image
-                            key={index}
-                            src="/assets/images/pagess/Group.png"
-                            alt=""
-                            width={100}
-                            height={100}
-                            className="w-[2.77778rem] h-[2.77778rem] md:w-[3.41882rem] md:h-[3.33333rem] object-contain"
-                        />
-                    ))}
+                <Image
+                    src="/assets/images/pagess/Group.png"
+                    alt=""
+                    width={100}
+                    height={100}
+                    className="w-[2.77778rem] h-[2.77778rem] md:w-[3.41882rem] md:h-[3.33333rem] object-contain"
+                />
+                <Image
+                    src="/assets/images/pagess/ai.svg"
+                    alt=""
+                    width={100}
+                    height={100}
+                    className="w-[2.77778rem] h-[2.77778rem] md:w-[3.41882rem] md:h-[3.33333rem] object-contain"
+                />
+                <Image
+                    src="/assets/images/pagess/pr.svg"
+                    alt=""
+                    width={100}
+                    height={100}
+                    className="w-[2.77778rem] h-[2.77778rem] md:w-[3.41882rem] md:h-[3.33333rem] object-contain"
+                />
+                <Image
+                    src="/assets/images/pagess/ae.svg"
+                    alt=""
+                    width={100}
+                    height={100}
+                    className="w-[2.77778rem] h-[2.77778rem] md:w-[3.41882rem] md:h-[3.33333rem] object-contain"
+                />
+                <Image
+                    src="/assets/images/pagess/figma.svg"
+                    alt=""
+                    width={100}
+                    height={100}
+                    className="w-[2.77778rem] h-[2.77778rem] md:w-[3.41882rem] md:h-[3.33333rem] object-contain"
+                />
+                <Image
+                    src="/assets/images/pagess/xd.svg"
+                    alt=""
+                    width={100}
+                    height={100}
+                    className="w-[2.77778rem] h-[2.77778rem] md:w-[3.41882rem] md:h-[3.33333rem] object-contain"
+                />
             </div>
         </div>
     );

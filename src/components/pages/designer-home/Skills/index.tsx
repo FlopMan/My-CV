@@ -49,7 +49,7 @@ const Skills = () => {
     return (
         <div className="flex max-md:px-[1.39rem] py-[3.33rem] p-[6.67rem] md:gap-[6.67rem] max-md:flex-col">
             <div className="md:w-[35.3472rem]  max-md:mb-[4.44rem] flex flex-shrink-0 ">
-                <div className="w-full flex flex-col sticky top-[7rem] h-fit">
+                <div className="w-full flex flex-col md:sticky md:top-[7.5rem] h-fit">
                     <h4 className="text-theme-primary-content text-[2.22222rem] md:text-[3.33333rem] leading-[1.2] font-medium max-md:mb-[1.67rem] mb-[2.22rem]">
                         The skills I possess will help make your project a
                         success.

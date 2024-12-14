@@ -9,7 +9,6 @@ const links = [
     { name: "HOME", path: "/home" },
     { name: "PROJECTS", path: "/designer-projects" },
     { name: "ABOUT", path: "/about-me" },
-    { name: "WORK WITH ME", path: "/home" },
 ];
 const Header = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -76,6 +75,12 @@ const Header = () => {
                             {item.name}
                         </Link>
                     ))}
+                    <Link
+                        href={"/home"}
+                        className={`${backgroundButton} ${colorButton} text-[1.11111rem] font-medium leading-[1.5] px-[1.88rem] py-[1.04rem] rounded-[2.64rem] border-[1px] border-solid border-[#131313]`}
+                    >
+                        WORK WITH ME
+                    </Link>
                 </div>
 
                 <svg
