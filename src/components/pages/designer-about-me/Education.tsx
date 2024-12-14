@@ -28,25 +28,51 @@ export default function Education() {
                 style={{ border: "1px solid rgba(39, 38, 38, 0.30)" }}
                 className="md:hidden grid grid-cols-1 gap-[1.11rem] w-[full] rounded-[1.38889rem] bg-[#fff] p-[1.67rem] "
             >
-                {Array(3)
-                    .fill(0)
-                    .map((e, index) => (
-                        <div className="flex  items-center" key={index}>
-                            <Image
-                                src={"/assets/images/pagess/chat.svg"}
-                                alt="avt"
-                                width={100}
-                                height={100}
-                                className="w-[2.22222rem] h-[2.22222rem] object-cover rounded-[50%]  mr-[1.11rem]"
-                            />
-                            <span className="text-[#666] text-[1.125rem] leading-[1.4] mr-[0.56rem]">
-                                Email:
-                            </span>
-                            <span className="text-[#1E1E1E] text-[1.25rem] leading-[1.3] font-semibold">
-                                Yourmail@gmail.com
-                            </span>
-                        </div>
-                    ))}
+                <div className="flex  items-center">
+                    <Image
+                        src={"/assets/images/pagess/chat.svg"}
+                        alt="avt"
+                        width={100}
+                        height={100}
+                        className="w-[2.22222rem] h-[2.22222rem] object-cover rounded-[50%]  mr-[1.11rem]"
+                    />
+                    <span className="text-[#666] text-[1.125rem] leading-[1.4] mr-[0.56rem]">
+                        Email:
+                    </span>
+                    <span className="text-[#1E1E1E] text-[1.25rem] leading-[1.3] font-semibold">
+                        Yourmail@gmail.com
+                    </span>
+                </div>
+                <div className="flex  items-center">
+                    <Image
+                        src={"/assets/images/pagess/phone.svg"}
+                        alt="avt"
+                        width={100}
+                        height={100}
+                        className="w-[2.22222rem] h-[2.22222rem] object-cover rounded-[50%]  mr-[1.11rem]"
+                    />
+                    <span className="text-[#666] text-[1.125rem] leading-[1.4] mr-[0.56rem]">
+                        Phone:
+                    </span>
+                    <span className="text-[#1E1E1E] text-[1.25rem] leading-[1.3] font-semibold">
+                        0123 456 789
+                    </span>
+                </div>
+                <div className="flex  items-center">
+                    <Image
+                        src={"/assets/images/pagess/location.svg"}
+                        alt="avt"
+                        width={100}
+                        height={100}
+                        className="w-[2.22222rem] h-[2.22222rem] object-cover rounded-[50%]  mr-[1.11rem]"
+                    />
+                    <span className="text-[#666] text-[1.125rem] leading-[1.4] mr-[0.56rem]">
+                        Location:
+                    </span>
+                    <span className="text-[#1E1E1E] text-[1.25rem] leading-[1.3] font-semibold">
+                        Hanoi, VietNam
+                    </span>
+                </div>
             </div>
         </div>
     );

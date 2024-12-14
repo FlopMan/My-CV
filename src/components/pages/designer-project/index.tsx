@@ -100,6 +100,9 @@ const MainProjects = () => {
                                 {
                                     fontSize: "1.1713rem",
                                     color: "#50505080",
+                                    width: "2.22222rem",
+                                    height: "2.22222rem",
+                                    margin: "0 0.28rem",
                                 },
                         }}
                         count={3}
