@@ -56,7 +56,7 @@ const Banner = () => {
         <Image alt="banner_bg" src={banner} fill className="object-cover" />
       </div>
       <div className="max-md:px-[1.39rem] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 md:w-[86.667rem] w-full">
-        <h1 className="text-[2.5rem] md:text-[5.55rem] text-theme-primary font-medium text-center">
+        <h1 className="text-[2.5rem] md:text-[5.55rem] text-theme-primary-content font-medium text-center">
           <span className="hand_image inline-flex relative w-[2.22222rem] h-[2.22222rem] md:w-[5rem] md:h-[5rem] md:mr-[1.667rem] md:ml-[1.667rem] mr-[0.83rem]">
             <Image src={handIcon} alt="hand" fill className="object-contain" />
           </span>
